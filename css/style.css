@@ -1,10 +1,13 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 body {
   color: #ffffff;
   background-color: #0c090a;
+
+  background-image: url("image\background img.png");
 }
 .header {
   background-color: #040720;
@@ -13,8 +16,6 @@ body {
   padding: 10px 20px;
   margin: 0 auto;
   align-items: center;
-  position: sticky;
-  top: 0;
 }
 .logo {
   border-color: antiquewhite;
@@ -46,14 +47,17 @@ a {
 }
 
 .sec2 {
-  background-color: #25d9d9;
+}
+.avatar {
+  width: 40vw;
 }
 
 .sec3 p {
-  border: 4px;
-  border-color: azure;
-  border-radius: 20px;
-  padding: 20px;
+  border: solid 2px;
+  border-radius: 30px;
+  height: 25vh;
+  padding: 20px 10px;
+  margin: auto 40px;
 }
 p {
   text-align: center;
