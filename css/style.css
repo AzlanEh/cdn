@@ -6,10 +6,17 @@
 }
 body {
   color: #ffffff;
-  background-color: #0c090a;
+  background-color: #161513;
 }
+header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
 .header {
-  background-color: #040720;
+  background: #222;
+  box-shadow: 0px 4.364px 16px -2.182px rgba(0, 0, 0, 0.1);
   display: flex;
   justify-content: space-between;
   padding: 10px 20px;
@@ -25,6 +32,10 @@ body {
   display: flex;
   justify-content: center;
   padding: 3px 10px;
+}
+.navbar a:hover {
+  color: #ff8660;
+  font-size: 15px;
 }
 a {
   text-decoration: none;
@@ -45,7 +56,29 @@ a {
 .avatar {
   width: 40vw;
 }
+.sec1 h1 span {
+  background: var(
+    --Primary-Gradient,
+    linear-gradient(116deg, #ff8660 71.79%, #9a33ff 95.51%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+}
 
+.sec1 div {
+  padding-top: 100px;
+  padding-left: 20px;
+}
+.sec2 div {
+  border-color: #9a33ff;
+  border: solid #9a33ff 2px;
+  border-radius: 1000px;
+}
+.sec2 div:hover {
+  border-color: #ff8660;
+}
 .sec3 p {
   border: solid 2px;
   border-radius: 30px;
@@ -57,6 +90,6 @@ p {
   text-align: center;
 }
 #foot {
-  background-color: #040720;
+  background: #222;
   padding: 15px 0px;
 }
