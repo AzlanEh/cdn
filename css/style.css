@@ -68,17 +68,21 @@ a {
 }
 
 .sec1 div {
-  padding-top: 100px;
-  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  padding-left: 0px;
 }
 .sec2 div {
-  border-color: #9a33ff;
   border: solid #9a33ff 2px;
   border-radius: 1000px;
+  max-height: min-content;
+  min-width: 30vw;
 }
 .sec2 div:hover {
   border-color: #ff8660;
+  box-shadow: -10px 20px 50px 10px #ff8660;
 }
+
 .sec3 p {
   border: solid 2px;
   border-radius: 30px;
